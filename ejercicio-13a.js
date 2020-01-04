@@ -12,10 +12,11 @@ function esPrimo(n) {
 }
 
 function primerosPrimos(n) {
-  var i = 2
+  var i = 2;
   while(primos.length < n) {
     if(esPrimo(i)) {
       primos.push(i);
     }
+    i++;
   }
 }
